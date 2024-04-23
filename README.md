@@ -1,4 +1,12 @@
-# Credit Risk Mmodeling
+# Credit Risk Modeling
+
+```
+├── Image                       
+│
+├── Code_A_B_test.ipynb                               <- code
+├── README.md                                         <- read me
+├── ab_test_results_aggregated_views_clicks_2.csv     <- dataset
+```
 
 ## Summary
 
