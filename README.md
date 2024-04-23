@@ -12,11 +12,16 @@
 
 ## 1. Business Understanding
 
-## 2. Data Understandling
-
+## 2. Data Understanding
+- Data source, shape
+- Data Dictionary
+- Data issue
 ## 3. Data Preparation
 
 ## 4. Modeling
+- Logistic Regression
+- Gradient descent boosting
+Why?
 
 ## 5. Evaluation
 
