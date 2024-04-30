@@ -50,7 +50,8 @@ Credit risk modeling is essential for lenders to assess the likelihood that a bo
 
 | Model            | Advantage        | Disadvantage    |
 |------------------|-----------------------------|-------------------------------------------------------|
-| Logistic Regression | - Interpretable: Easy to understand the impact of each feature on the prediction.|- Prone to overfitting |                                            | XGBoost             | - High predictive performance | Prone to overfitting|      
+| Logistic Regression | Interpretable: Easy to understand the impact of each feature on the prediction.|- Prone to overfitting |
+| XGBoost             | - High predictive performance | Prone to overfitting|      
  
 ## 5. Evaluation
 
