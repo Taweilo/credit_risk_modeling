@@ -48,7 +48,7 @@ Credit risk modeling is essential for lenders to assess the likelihood that a bo
 - Logistic Regression
 - XGBoosing
 
-| Model            | Advantage        |Disadvantage    |
+| Model            | Advantage        | Disadvantage    |
 |------------------|-----------------------------|-------------------------------------------------------|
 | Logistic Regression | - Interpretable: Easy to understand the impact of each feature on the prediction.|- Prone to overfitting |                                            | XGBoost             | - High predictive performance | Prone to overfitting|      
  
