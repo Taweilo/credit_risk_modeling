@@ -15,17 +15,31 @@ Credit risk modeling is essential for lenders to assess the likelihood that a bo
 
 ## 2. Data Understanding
 - Data source: Datacamp, including 32581 rows 13 columns
-- Data Dictionary:
+- Data Dictionary
+| Field                    | Datatype   | Definition                                                          | Note                       |
+|--------------------------|------------|---------------------------------------------------------------------|----------------------------|
+| application_id           | Integer    | Unique identifier for the loan application                          | identifier                 |
+| person_age               | Integer    | Age of the loan applicant in years                                  | application data           |
+| person_income            | Integer    | Annual income of the loan applicant                                 | behavior data              |
+| person_home_ownership    | String     | Ownership status of the loan applicant's home (RENT, MORTGAGE, OWN) | application data           |
+| person_emp_length        | Float      | Length of employment of the loan applicant in years                 | application data           |
+| loan_intent              | String     | Purpose of the loan (PERSONAL, EDUCATION, MEDICAL)                  | application data           |
+| loan_grade               | String     | Grade assigned to the loan based on creditworthiness (A, B, C, D, E)| application data           |
+| loan_amt                 | Integer    | Loan amount requested by the applicant                              | application data           |
+| loan_int_rate            | Float      | Interest rate of the loan                                           | application data           |
+| loan_status              | String     | Status of the loan (Y - Approved, N - Denied)                       | Target variable            |
+| loan_percent_income      | Float      | Ratio of the loan amount to the applicant's annual income           | behavior data              |
+| ch_person_default_on_file | String (Y/N) | Indicates if the applicant has a history of loan default         | behavior data              |
+| ch_person_cred_hist_length| Float      | Length of the applicant's credit history in years                  | behavior data              |
   
 - Data issue
   - Abnormal & outlier data
   - Missing data
   - Imbalance data 
 ## 3. Data Preparation
-
 - Abnormal & outlier data
-- Missing data
-- Imbalance data 
+- Fill missing data with median
+- Undersampling the non-default data to ensure the balance training data
 - Split train, validation, test data
 
 ## 4. Modeling
