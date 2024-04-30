@@ -15,7 +15,9 @@ Credit risk modeling is essential for lenders to assess the likelihood that a bo
 
 ## 2. Data Understanding
 - Data source: Datacamp, including 32581 rows 13 columns
+  
 - Data Dictionary
+  
 | Field                    | Datatype   | Definition                                                          | Note                       |
 |--------------------------|------------|---------------------------------------------------------------------|----------------------------|
 | application_id           | Integer    | Unique identifier for the loan application                          | identifier                 |
