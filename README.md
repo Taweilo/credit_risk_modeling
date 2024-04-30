@@ -18,9 +18,9 @@ Credit risk modeling is essential for lenders to assess the likelihood that a bo
 - Data Dictionary:
   
 - Data issue
- - Abnormal & outlier data
- - Missing data
- - Imbalance data 
+  - Abnormal & outlier data
+  - Missing data
+  - Imbalance data 
 ## 3. Data Preparation
 
 - Abnormal & outlier data
