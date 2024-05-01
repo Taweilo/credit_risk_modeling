@@ -50,8 +50,9 @@ Credit risk modeling is essential for lenders to assess the likelihood that a bo
 
 | Model            | Advantage        | Disadvantage    |
 |------------------|-----------------------------|-------------------------------------------------------|
-| Logistic Regression | - Interpretable: Easy to understand. <br> - Fast training and prediction: Efficient for large datasets <br> - Good for binary classification| -Assumes linear relationship: Might not capture complex interactions between features <br> - Limited to linear decision boundaries <br> - Sensitive to outliers <br> - Limited expressiveness: Cannot capture complex patterns |
-| XGBoost             | - High predictive performance | Prone to overfitting|      
+| Logistic Regression | - Interpretable: Easy to understand. <br> - Fast training and prediction <br> - Good for binary classification| - 
+ Assumes linear relationship <br> - Limited to linear decision boundaries <br> - Sensitive to outliers <br> - Limited expressiveness: Cannot capture complex patterns |
+| XGBoost             | - High predictive performance <br> - Handles missing values <br> - Handles nonlinear relationships| Prone to overfitting <br>- Longer training time <br>- Black-box nature|      
  
 ## 5. Evaluation
 
