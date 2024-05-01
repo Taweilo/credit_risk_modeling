@@ -41,7 +41,7 @@ Credit risk modeling is essential for lenders to assess the likelihood that a bo
 ## 3. Data Preparation
 - Abnormal & outlier data
 - Fill missing data with median
-- Undersampling the non-default data to ensure the balance training data
+- Undersampling the non-default data to ensure the balance of training data
 - Split train, validation, test data
 
 ## 4. Modeling
@@ -50,7 +50,15 @@ Credit risk modeling is essential for lenders to assess the likelihood that a bo
 
 | Model            | Advantage        | Disadvantage    |
 |------------------|-----------------------------|-------------------------------------------------------|
-| Logistic Regression | Interpretable: Easy to understand the impact of each feature on the prediction.|- Prone to overfitting |
+| Logistic Regression | - Interpretable: Easy to understand. <br>
+                        - Fast training and prediction: Efficient for large datasets <br>
+                        - Good for binary classification
+                        |
+ - Assumes linear relationship: Might not capture complex interactions between features <br>
+ - Limited to linear decision boundaries <br>
+ - Sensitive to outliers <br>
+ - Limited expressiveness: Cannot capture complex patterns
+ |
 | XGBoost             | - High predictive performance | Prone to overfitting|      
  
 ## 5. Evaluation
