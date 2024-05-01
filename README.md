@@ -8,6 +8,8 @@
 ├── ab    <- dataset
 ```
 
+https://colab.research.google.com/drive/1sjorLY3Gg316VVW4skgM4kHrUficsYoU#scrollTo=lyQgPcbBk1Ip
+
 ## Summary
 
 ## 1. Business Understanding
@@ -54,7 +56,14 @@ Credit risk modeling is essential for lenders to assess the likelihood that a bo
 | XGBoost             | - High predictive performance <br> - Handles missing values <br> - Handles nonlinear relationships| - Prone to overfitting <br>- Longer training time <br>- Black-box nature|      
  
 ## 5. Evaluation
-
+- Model comparison
+- ROC / AUC curve
 ## 6. Recommendation
-
-## 7. Conclusion
+- Retrain model
+- confusion matrix/ ROC AUC?
+- Strategy table
+- Total loss
+## 7. Conclusion & Future improvement
+- Importance table?
+- How to improve the model
+- Limitation? feature
