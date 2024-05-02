@@ -41,7 +41,7 @@ Credit risk modeling is essential for lenders to assess the likelihood that a bo
   - Missing data
   - Imbalance data 
 ## 3. Data Preparation
-- Abnormal & outlier data
+- Remove abnormal & outlier data
 - Fill missing data with median
 - Undersampling the non-default data to ensure the balance of training data
 - Split train, validation, test data
@@ -57,7 +57,15 @@ Credit risk modeling is essential for lenders to assess the likelihood that a bo
  
 ## 5. Evaluation
 - Model comparison
+
+| Model                | Accuracy | AUC  | F1 (Default)  |
+|----------------------|----------|------|------|
+| Logistic Regression  | 0.69     | 0.73 | 0.53 |
+| XGB Classifier       | 0.89     | 0.86 | 0.76 |
+
 - ROC / AUC curve
+  ![image](https://github.com/Taweilo/credit_risk_modeling/assets/111590843/1f2d3730-df4e-49c0-9738-823adecd0856)
+
 ## 6. Recommendation
 - Retrain model
 - confusion matrix/ ROC AUC?
