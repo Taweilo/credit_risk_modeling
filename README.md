@@ -64,7 +64,8 @@ Credit risk modeling is essential for lenders to assess the likelihood that a bo
 | XGB Classifier       | 0.89     | 0.86 | 0.76 |
 
 - ROC / AUC curve
-  ![image](https://github.com/Taweilo/credit_risk_modeling/assets/111590843/1f2d3730-df4e-49c0-9738-823adecd0856)
+
+![image](https://github.com/Taweilo/credit_risk_modeling/assets/111590843/1f2d3730-df4e-49c0-9738-823adecd0856)
 
 ## 6. Recommendation
 - Retrain model
