@@ -1,11 +1,9 @@
 # Credit Risk Modeling
 
 ```
-├── Image                       
-│
-├── Code_                             <- code
+├── Code_Credit_Risk.ipynb                            <- code
 ├── README.md                                         <- read me
-├── ab    <- dataset
+├── loan_data.csv                                     <- dataset
 ```
 
 https://colab.research.google.com/drive/1sjorLY3Gg316VVW4skgM4kHrUficsYoU#scrollTo=lyQgPcbBk1Ip
