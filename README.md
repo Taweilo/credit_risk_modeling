@@ -68,7 +68,7 @@ Credit risk modeling is essential for lenders to assess the likelihood that a bo
 ![image](https://github.com/Taweilo/credit_risk_modeling/assets/111590843/1f2d3730-df4e-49c0-9738-823adecd0856)
 
 ## 6. Recommendation
-1. Retrain the model and testing model performance on test data
+1. Retrain the model and test model performance on test data
 
 |             | precision | recall | f1-score | support |
 |-------------|-----------|--------|----------|---------|
@@ -79,9 +79,15 @@ Credit risk modeling is essential for lenders to assess the likelihood that a bo
 | macro avg   | 0.85      | 0.86   | 0.86     | 5893    |
 | weighted avg| 0.90      | 0.90   | 0.90     | 5893    |
    
-3. confusion matrix/ ROC AUC curve
-4. Strategy table
-5. Total loss
+2. confusion matrix/ ROC AUC curve
+   
+![image](https://github.com/Taweilo/credit_risk_modeling/assets/111590843/db20fd13-d64f-45ce-a292-0012f932c5f5)
+
+![image](https://github.com/Taweilo/credit_risk_modeling/assets/111590843/8bbbb0bb-67bd-4e9d-b3e7-de83e393d28e)
+   
+3. Strategy table
+   
+4. Total loss 
 ## 7. Conclusion & Future Improvement
 - Importance table?
 - How to improve the model
