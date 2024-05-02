@@ -86,9 +86,33 @@ Credit risk modeling is essential for lenders to assess the likelihood that a bo
 ![image](https://github.com/Taweilo/credit_risk_modeling/assets/111590843/8bbbb0bb-67bd-4e9d-b3e7-de83e393d28e)
    
 3. Strategy table
+
+|   Acceptance Rate |   Threshold |   Bad Rate |
+|------------------:|------------:|-----------:|
+|               1.00 |       1.000 |      0.223 |
+|               0.95 |       0.994 |      0.183 |
+|               0.90 |       0.981 |      0.137 |
+|               0.85 |       0.901 |      0.088 |
+|               0.80 |       0.590 |      0.065 |
+|               0.75 |       0.459 |      0.056 |
+|               0.70 |       0.373 |      0.046 |
+|               0.65 |       0.314 |      0.039 |
+|               0.60 |       0.270 |      0.033 |
+|               0.55 |       0.231 |      0.029 |
+|               0.50 |       0.202 |      0.026 |
+|               0.45 |       0.174 |      0.020 |
+|               0.40 |       0.149 |      0.016 |
+|               0.35 |       0.125 |      0.011 |
+|               0.30 |       0.104 |      0.010 |
+|               0.25 |       0.079 |      0.005 |
+|               0.20 |       0.048 |      0.002 |
+|               0.15 |       0.020 |      0.000 |
+|               0.10 |       0.007 |      0.000 |
+|               0.05 |       0.004 |      0.000 |
    
-4. Total loss 
-## 7. Conclusion & Future Improvement
-- Importance table?
-- How to improve the model
-- Limitation? feature
+5. Total expected loss = SUM(probability of default * Exposure at default * Loss given default) = $19,757,146.02
+## 7. Future Improvement
+- Calibration curve
+  Even though the model has a high AUC, the predicted probability is higher than expected (underconfidence). We recommend clibrating the error. 
+![image](https://github.com/Taweilo/credit_risk_modeling/assets/111590843/02361893-749f-402a-82a6-e0a3690a2908)
+
