@@ -112,7 +112,9 @@ Credit risk modeling is essential for lenders to assess the likelihood that a bo
    
 5. Total expected loss = SUM(probability of default * Exposure at default * Loss given default) = $19,757,146.02
 ## 7. Future Improvement
+Even though the model has a high AUC, the predicted probability is higher than expected (underconfidence). We recommend calibrating the error.
+
 - Calibration curve
-  Even though the model has a high AUC, the predicted probability is higher than expected (underconfidence). We recommend clibrating the error. 
+  
 ![image](https://github.com/Taweilo/credit_risk_modeling/assets/111590843/02361893-749f-402a-82a6-e0a3690a2908)
 
